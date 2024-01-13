@@ -1,0 +1,148 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: about_university
+  examples: |
+    - I'm interested in learning about the university. Can you help?
+    - Can you provide information about the university?
+    - Provide me with some insights into the university.
+    - What's there to know about the university?
+    - what is the university?
+    - Could you share some facts about the university
+    - the university
+    - your university
+    - tell me about your university
+    - tell me about the university
+    - about the university
+    - Share some details about the university.
+    - Tell me about the university.
+    - What do you know about the university?
+    - Give me an overview of the university.
+    - Enlighten me about the university.
+
+- intent: uni_size
+  examples: |
+    - the size of the university
+    - the size of the campus
+    - area of the campus
+    - how much size
+
+- intent: uni_startyear
+  examples: |
+    - when was the university founded?
+    - in which year the university started?
+
+- intent: uni_location
+  examples: |
+    - where is the uni located?
+    - the location of the university
+    - the address of the uni?
+    - where is it situated?
+
+
+- intent: contact_info
+  examples: |
+    - Any email address to contact you guys?
+    - Give a phone number or email address
+    - Do you have any mail or telephone?
+    - How can I contact?
+    - Do you have any contact info?
+
+
+- intent: info_about_dept
+  examples: |
+    - I'm interested in the [eee](dept) department; can you help?
+    - What information can you provide on [pme](dept) department?
+    - tell me about [bme](dept) department
+    - what do you know about [che](dept)
+    - is there a [cse](dept) department?
+    - Provide information on the [nhs](dept) department, please.
+    - give me detail about [eee](dept) dept
+    - tell me about [ipe](dept) department.
+    - Does the [te](dept) department exist?
+    - Can you elaborate on [appt](dept) department?
+    - Inform me about the [cdm](dept) dept.
+    - I'd like details on the [est](dept) dept.
+    - Is there a [nft](dept) department available?
+    - Share insights about the [fmb](dept) department.
+    - Describe the [gebt](dept) department to me.
+    - What can you tell me about the [mb](dept) department?
+    - Does [phm](dept) have a specific department?
+    - Enlighten me about the [pes](dept) dept.
+    - Any insights on the [ptr](dept) department?
+    - Is the [eng](dept) department operational?
+    - How can I learn more about the [chem](dept) dept?
+    - Can you brief me on [mth](dept) department?
+    - Share any knowledge you have on the [phy](dept) department.
+    - Does [ais](dept) offer a department in this field?
+    - Can you provide an overview of the [fb](dept) department?
+    - What are your thoughts on the [mgt](dept) department?
+    - Tell me everything about the [mkt](dept) department.
+    - Is there a recognized [ipe](dept) department?
+    - What's the scope of the [pme](dept) department?
+    - Describe the main features of the [cse](dept) department.
+
+
+- intent: info_about_teacher
+  examples: |
+    - Is there any information available about [monishanker](teacher_name) sir?
+    - Are there any details you can share about [shahab uddin](teacher_name) sir?
+    - Can i get info about [alam](teacher_name) sir
+    - how can i contact [galib](teacher_name) sir
+    - what can you tell me about [asif](teacher_name)
+    - Can you provide details on [kamrul](teacher_name) sir?
+    - What do you know about [arif](teacher_name) sir?
+    - I'd like information on [nazmul](teacher_name) sir.
+    - How can I learn more about [nowshin](teacher_name) sir?
+    - Could you share some insights on [arafat](teacher_name) sir?
+    - How can I get in touch with [jannatul](teacher_name) mam?
+    - Do you have contact details for [nasim](teacher_name) sir?
+    - How can I reach out to [sumi](teacher_name) mam?
+    - What's the best way to contact [shafiuzzaman](teacher_name) sir?
+    - What's the contact information for [atish](teacher_name) sir?
+    - Could you provide a contact method for [ema](teacher_name) mam?
+    - What insights can you offer about [akhond](teacher_name) sir?
+    - What is known about [mustain](teacher_name) sir?
+    - Can you give a brief about [salahuddin](teacher_name) sir?
+    - I'd like to know more about [mehedi](teacher_name) sir.
+    - How can I find out about [jamil](teacher_name) sir?
+    - Are there any resources or contacts related to [ariful](teacher_name) sir?
+    - What can you enlighten me about [jubayer](teacher_name) sir?
+
+

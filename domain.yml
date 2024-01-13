@@ -1,0 +1,65 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - about_university
+  - uni_size
+  - uni_startyear
+  - uni_location
+  - contact_info
+  - info_about_dept
+  - info_about_teacher
+
+entities:
+  - teacher_name
+  - dept
+
+responses:
+  utter_greet:
+  - text: "Hi! How can I help you?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot."
+
+  utter_whatdouwannaknow:
+  - text: "What do you want to know about the university?"
+
+  utter_unisize:
+  - text: "The area of the university is 35 acres. What else do you wanna know?"
+
+  utter_unistartyear:
+  - text: "The university started its journey in the year 2007."
+
+  utter_location:
+  - text: "Its located in Jashore, Bangladesh."
+
+  utter_about_university:
+  - text: "Jessore University of Science and Technology (JUST) is 
+    a public research university located in Jessore, Bangladesh. 
+    Established in 2007, it aims to provide high-quality education 
+    in various scientific and technological fields. JUST offers 
+    undergraduate and postgraduate programs in engineering, science, 
+    and technology disciplines. The university is known for its commitment 
+    to research and innovation, contributing to the development of 
+    science and technology in the region. It plays a significant role 
+    in higher education in Bangladesh and has a growing reputation 
+    for academic excellence."
+
+  utter_contact_info:
+  - text: "Email for office of the Vice Chancellor is vc@just.edu.bd 
+    and email for the office of the Registrar: registrar@just.edu.bd"
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+  - action_get_dept_info
+  - action_get_teacher_info

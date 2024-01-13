@@ -1,0 +1,42 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  # - intent: mood_great
+  # - action: utter_happy
+
+
+- story: info_about_dept path
+  steps:
+  - intent: info_about_dept
+  - action: action_get_dept_info
+  
+
+- story: info_about_teacher path
+  steps:
+  - intent: info_about_teacher
+    entities:
+      - teacher_name: "galib"
+  - action: action_get_teacher_info
+
+
+- story: about_university_1 path
+  steps:
+  - intent: about_university
+  - action: utter_whatdouwannaknow
+- story: about_university_2 path
+  steps:
+  - intent: uni_size
+  - action: utter_unisize
+- story: about_university_3 path
+  steps:
+  - intent: uni_startyear
+  - action: utter_unistartyear
+- story: about_university_4 path
+  steps:
+  - intent: uni_location
+  - action: utter_location
