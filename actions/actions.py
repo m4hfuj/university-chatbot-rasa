@@ -9,7 +9,7 @@ from rasa_sdk.executor import CollectingDispatcher
 import pandas as pd
 
 def get_teacher_info(teacher_entity):
-    df = pd.read_csv('./actions/teacher_info.csv')
+    df = pd.read_csv('teacher_info.csv')
     teacher_entity = teacher_entity.split(' ')[-1]
     for teacher in df['name']:
         if teacher_entity in teacher:
@@ -23,7 +23,7 @@ def get_teacher_info(teacher_entity):
             return (dept, name, desig, tele, email)
         
 def get_dept_overview(dept_entity):
-    df = pd.read_csv('./actions/dept_overview.csv')
+    df = pd.read_csv('dept_overview.csv')
     for dept in df['dept']:
         if dept == dept_entity:
             info = df[df['dept'] == dept]

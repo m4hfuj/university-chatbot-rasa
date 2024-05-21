@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-dept",
+      "2": "I-dept",
+      "3": "L-dept",
+      "4": "U-dept",
+      "5": "B-teacher_name",
+      "6": "I-teacher_name",
+      "7": "L-teacher_name",
+      "8": "U-teacher_name",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-dept": 1,
+      "I-dept": 2,
+      "L-dept": 3,
+      "U-dept": 4,
+      "B-teacher_name": 5,
+      "I-teacher_name": 6,
+      "L-teacher_name": 7,
+      "U-teacher_name": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]
