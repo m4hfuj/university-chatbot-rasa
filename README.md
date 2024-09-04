@@ -4,11 +4,11 @@ Welcome to the University Chatbot, a conversational AI designed to assist studen
 
 ## Features:
 
-    Course Information: Ask about course schedules, prerequisites, professors, and more.
-    Admissions Assistance: Get information about admission requirements, application deadlines, and procedures.
-    Campus Services: Inquire about library hours, campus events, dining options, and facilities.
-    Student Support: Receive guidance on academic advising, counseling services, and student organizations.
-    FAQs: Access frequently asked questions and their answers on various university-related topics.
+  -  Course Information: Ask about course schedules, prerequisites, professors, and more.
+  -  Admissions Assistance: Get information about admission requirements, application deadlines, and procedures.
+  -  Campus Services: Inquire about library hours, campus events, dining options, and facilities.
+  -  Student Support: Receive guidance on academic advising, counseling services, and student organizations.
+  -  FAQs: Access frequently asked questions and their answers on various university-related topics.
 
 ## How to Use:
 
